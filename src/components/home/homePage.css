@@ -1,0 +1,207 @@
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 22%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.block h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #202224;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block .icon {
+  width: 50px;
+  height: auto;
+}
+
+.block .value {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.block .description {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.chart-container {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .block {
+    flex: 1 1 45%;
+  }
+
+  .static_panel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    flex: 1 1 100%;
+  }
+}
+
+span {
+  color: rgb(68, 234, 179);
+  font-weight: 700;
+}
+
+
+.static_panel {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.static_new {
+  width: 800px;
+  height: 410px;
+  border-radius: 30px;
+}
+
+.tariff {
+  margin-left: 30px;
+  width: 306px;
+}
+
+.block_tariff {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  height: 83px;
+  margin-top: 5px;
+  padding-left: 20px;
+  background-color: #f0ebebc5;
+}
+
+.block_tariff span {
+  color: #202224;
+}
+
+.block_tariff div:nth-child(2) {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.block_tariff h4 {
+  height: 2px;
+  color: #3366FF;
+}
+
+.tariff div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+#container {
+  border-radius: 20px;
+}
+
+.calculations {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #f0ebebc5;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  width: 402px;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.phone {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.stats .orders,
+.stats .income {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.label {
+  font-size: 12px;
+  color: #95a5a6;
+}
+
+.highcharts-background {
+  background-color: #f5f6fa !important;
+}
+
+.value {
+  font-size: 14px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.highcharts-figure {
+  width: 700px;
+  margin-left: 0px;
+  background-color: #d4d9e7;
+  height: 230px;
+  border-radius: 30px;
+}

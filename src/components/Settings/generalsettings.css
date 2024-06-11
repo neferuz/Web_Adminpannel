@@ -1,0 +1,62 @@
+.up-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.up-con button{
+    width: 270px;
+    height: 38px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #5459EA;
+    background-color: #FFFFFF;
+    color: #5459EA;
+    font-weight: 600;
+}
+.settings{
+    padding: 10px 50px 10px 50px;
+}
+.profik-con{
+    display: flex;
+}
+
+.settings {
+    padding: 10px 40px 10px 40px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    display: grid;
+  }
+  
+  .section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .section p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .section button {
+    margin-right: 10px;
+    width: 220px;
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #5459EA;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .section button:hover {
+    background-color: #4649b7;
+  }
+  
